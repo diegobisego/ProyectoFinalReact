@@ -3,16 +3,25 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/Navbar";
 import ItemListContainer from "./components/ItemListContainer";
-import Swal from 'sweetalert2'
-
+import ItemsList from "./components/ItemsList";
+import ItemsDetails from "./components/ItemsDetails";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <div className="container">
-        <Navbar/>
-        <ItemListContainer greeting={'Diego!'}/>
-      </div>
+      <BrowserRouter>
+          <Navbar />
+      <Routes>
+          <Route path="/item/:id" element={<ItemsDetails/>}/>
+          <Route/>
+          <Route/>
+      </Routes>
+        <div className="container">
+          <ItemListContainer greeting={"Diego!"} />
+          <ItemsDetails />
+        </div>
+      </BrowserRouter>
     </div>
   );
 }

@@ -4,7 +4,7 @@ import carritoImagen from './../assets/img/carrito.jpg'
 const CartWidget = () => {
   return (
     <div>
-      <button class="btn btn-outline-success" type="button">
+      <button className="btn btn-outline-success" type="button">
         <img src={carritoImagen} alt="" />
       </button>
     </div>
