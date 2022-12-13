@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import CartWidget from "./CartWidget";
 
 
@@ -7,9 +8,7 @@ export default function Navbar() {
     <div>
       <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
-            Distribuidora
-          </a>
+          <Link to={'/'}>Distribuidora</Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -23,26 +22,36 @@ export default function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
-                  Productos
-                </a>
+              <Link to={'/category/Liquido'}>
+              <li className="nav-link">
+                Liquido         
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Sucursales
-                </a>
+              </Link>
+              <Link to={'/category/Aceitunas'}>
+              <li className="nav-link">
+              Aceitunas         
               </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link"
-                  href="#"
-                  tabIndex="-1"
-                  aria-disabled="true"
-                >
-                  Nosotros
-                </a>
+              </Link>
+              <Link to={'/category/Avicola'}>
+              <li className="nav-link">
+              Avicola         
               </li>
+              </Link>
+              <Link to={'/category/Seco'}>
+              <li className="nav-link">
+              Seco         
+              </li>
+              </Link>
+              <Link to={'/category/Enlatados'}>
+              <li className="nav-link">
+              Enlatados         
+              </li>
+              </Link>
+              <Link to={'/category/Condimentos'}>
+              <li className="nav-link">
+              Condimentos         
+              </li>
+              </Link>
             </ul>
             <div>
                 <CartWidget/>

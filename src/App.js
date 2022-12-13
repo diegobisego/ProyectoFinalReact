@@ -13,14 +13,15 @@ function App() {
       <BrowserRouter>
           <Navbar />
       <Routes>
+          <Route path='/' element={<ItemListContainer/>}/>
           <Route path="/item/:id" element={<ItemsDetails/>}/>
-          <Route/>
+          <Route path="/category/:idCategory" element={<ItemListContainer/>}/>
           <Route/>
       </Routes>
-        <div className="container">
+        {/* <div className="container">
           <ItemListContainer greeting={"Diego!"} />
           <ItemsDetails />
-        </div>
+        </div> */}
       </BrowserRouter>
     </div>
   );
