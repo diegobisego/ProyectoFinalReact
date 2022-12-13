@@ -37,7 +37,7 @@ function ItemsList() {
   }   
 
   return (
-    <div>
+    <div className='d-flex flex-wrap justify-content-sm-around'>
       {products.length
       ?
       listProducts.map((product) => <Item 

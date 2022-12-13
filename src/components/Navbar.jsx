@@ -8,7 +8,7 @@ export default function Navbar() {
     <div>
       <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
         <div className="container-fluid">
-          <Link to={'/'}>Distribuidora</Link>
+          <Link to={'/'} className="text-decoration-none">DISTRIBUIDORA</Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -22,32 +22,32 @@ export default function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <Link to={'/category/Liquido'}>
+              <Link to={'/category/Liquido'} className="text-decoration-none">
               <li className="nav-link">
               Liquido         
               </li>
               </Link>
-              <Link to={'/category/Aceitunas'}>
+              <Link to={'/category/Aceitunas'} className="text-decoration-none">
               <li className="nav-link">
               Aceitunas         
               </li>
               </Link>
-              <Link to={'/category/Avicola'}>
+              <Link to={'/category/Avicola'} className="text-decoration-none">
               <li className="nav-link">
               Avicola         
               </li>
               </Link>
-              <Link to={'/category/Secos'}>
+              <Link to={'/category/Secos'} className="text-decoration-none">
               <li className="nav-link">
               Secos      
               </li>
               </Link>
-              <Link to={'/category/Enlatados'}>
+              <Link to={'/category/Enlatados'} className="text-decoration-none">
               <li className="nav-link">
               Enlatados         
               </li>
               </Link>
-              <Link to={'/category/Condimentos'}>
+              <Link to={'/category/Condimentos'} className="text-decoration-none">
               <li className="nav-link">
               Condimentos         
               </li>

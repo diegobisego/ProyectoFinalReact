@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 
-import Button from 'react-bootstrap/Button';
+// import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 function Item({id,title,price,picture}) {
@@ -11,10 +11,10 @@ function Item({id,title,price,picture}) {
       <Card.Img variant="top" src={picture}/>
       <Card.Body>
         <Card.Title>{title}</Card.Title>
-        <Card.Text>
+        {/* <Card.Text>
           "Some quick example text to build on the card title and make up the
           bulk of the card's content."
-        </Card.Text>
+        </Card.Text> */}
         <Card.Footer>Precio: ${price}</Card.Footer>
         <Link to={`/item/${id}`} className="btn btn-primary">Ver detalles</Link>
       </Card.Body>
