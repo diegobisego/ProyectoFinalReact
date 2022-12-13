@@ -1,5 +1,24 @@
 import AceiteGirasol from '../assets/img/aceiteGirasol.jpg'
 import AceiteOliva from '../assets/img/aceiteOliva.jpg'
+import AceiteOliva5L from '../assets/img/AceiteOliva5L.jpg'
+import ACV1kg from '../assets/img/ACV1kg.jpg'
+import ACV2kg from '../assets/img/ACV2kg.jpg'
+import ACV5kg from '../assets/img/ACV5kg.jpg'
+import ACN1kg from '../assets/img/ACN1kg.jpg'
+import ACN2kg from '../assets/img/ACN2kg.jpg'
+import ACN5kg from '../assets/img/ACN5kg.jpg'
+import ACF1kg from '../assets/img/ACF1kg.jpg'
+import ACF2kg from '../assets/img/ACF2kg.jpg'
+import ACF5kg from '../assets/img/ACF5kg.jpg'
+import HCG from '../assets/img/HCG.jpg'
+import HGB from '../assets/img/HGB.jpg'
+import PU1kg from '../assets/img/PU1kg.jpg'
+import MO800g from '../assets/img/MO800g.jpg'
+import VI5L from '../assets/img/VI5L.jpg'
+import PI from '../assets/img/PI.jpg'
+import COM from '../assets/img/COM.jpg'
+import OR from '../assets/img/OR.jpg'
+
 
 const products = [
     {
@@ -27,16 +46,7 @@ const products = [
         price: 2000,
         stock: 100,
         categories: 'Liquido',
-        picture: `${AceiteOliva}`
-    },
-    {
-        id: 4,
-        title: 'Aceitunas Verdes N0 1kg',
-        description: 'Aceitunas Verdes',
-        price: 2000,
-        stock: 100,
-        categories: 'Aceitunas',
-        picture: 'https://drive.google.com/uc?export=view&id=1T-BXOOMk4-5HepdlNTLxu_At2LWJLIRs'
+        picture: `${AceiteOliva5L}`
     },
     {
         id: 5,
@@ -45,7 +55,7 @@ const products = [
         price: 2000,
         stock: 100,
         categories: 'Aceitunas',
-        picture: 'https://drive.google.com/uc?export=view&id=1T-BXOOMk4-5HepdlNTLxu_At2LWJLIRs'
+        picture: `${ACV1kg}`
     },
     {
         id: 6,
@@ -54,7 +64,7 @@ const products = [
         price: 2000,
         stock: 100,
         categories: 'Aceitunas',
-        picture: 'https://drive.google.com/uc?export=view&id=1T-BXOOMk4-5HepdlNTLxu_At2LWJLIRs'
+        picture: `${ACV2kg}`
     },
     {
         id: 7,
@@ -63,7 +73,7 @@ const products = [
         price: 2000,
         stock: 100,
         categories: 'Aceitunas',
-        picture: 'https://drive.google.com/uc?export=view&id=1T-BXOOMk4-5HepdlNTLxu_At2LWJLIRs'
+        picture: `${ACV5kg}`    
     },
     {
         id: 8,
@@ -72,7 +82,7 @@ const products = [
         price: 2000,
         stock: 100,
         categories: 'Aceitunas',
-        picture: 'https://drive.google.com/uc?export=view&id=1T-BXOOMk4-5HepdlNTLxu_At2LWJLIRs'
+        picture: `${ACV1kg}`    
     },
     {
         id: 9,
@@ -81,7 +91,7 @@ const products = [
         price: 2000,
         stock: 100,
         categories: 'Aceitunas',
-        picture: 'https://drive.google.com/uc?export=view&id=1T-BXOOMk4-5HepdlNTLxu_At2LWJLIRs'
+        picture: `${ACV2kg}`    
     },
     {
         id: 10,
@@ -90,7 +100,7 @@ const products = [
         price: 2000,
         stock: 100,
         categories: 'Aceitunas',
-        picture: 'https://drive.google.com/uc?export=view&id=1T-BXOOMk4-5HepdlNTLxu_At2LWJLIRs'
+        picture: `${ACV5kg}`    
     },
     {
         id: 11,
@@ -99,7 +109,7 @@ const products = [
         price: 2000,
         stock: 100,
         categories: 'Aceitunas',
-        picture: 'https://drive.google.com/uc?export=view&id=1T-BXOOMk4-5HepdlNTLxu_At2LWJLIRs'
+        picture: `${ACN1kg}`  
     },
     {
         id: 12,
@@ -108,7 +118,7 @@ const products = [
         price: 2000,
         stock: 100,
         categories: 'Aceitunas',
-        picture: 'https://drive.google.com/uc?export=view&id=1T-BXOOMk4-5HepdlNTLxu_At2LWJLIRs'
+        picture: `${ACN2kg}` 
     },
     {
         id: 13,
@@ -117,7 +127,7 @@ const products = [
         price: 2000,
         stock: 100,
         categories: 'Aceitunas',
-        picture: 'https://drive.google.com/uc?export=view&id=1T-BXOOMk4-5HepdlNTLxu_At2LWJLIRs'
+        picture: `${ACN5kg}`
     },
     {
         id: 14,
@@ -126,7 +136,7 @@ const products = [
         price: 2000,
         stock: 100,
         categories: 'Aceitunas',
-        picture: 'https://drive.google.com/uc?export=view&id=1T-BXOOMk4-5HepdlNTLxu_At2LWJLIRs'
+        picture: `${ACF1kg}`
     },
     {
         id: 15,
@@ -135,7 +145,7 @@ const products = [
         price: 2000,
         stock: 100,
         categories: 'Aceitunas',
-        picture: 'https://drive.google.com/uc?export=view&id=1T-BXOOMk4-5HepdlNTLxu_At2LWJLIRs'
+        picture: `${ACF2kg}`
     },
     {
         id: 16,
@@ -144,7 +154,7 @@ const products = [
         price: 2000,
         stock: 100,
         categories: 'Aceitunas',
-        picture: 'https://drive.google.com/uc?export=view&id=1T-BXOOMk4-5HepdlNTLxu_At2LWJLIRs'
+        picture: `${ACF5kg}`
     },
     {
         id: 17,
@@ -153,7 +163,7 @@ const products = [
         price: 2000,
         stock: 100,
         categories: 'Avicola',
-        picture: 'https://drive.google.com/uc?export=view&id=1T-BXOOMk4-5HepdlNTLxu_At2LWJLIRs'
+        picture: `${HCG}`
     },
     {
         id: 18,
@@ -162,7 +172,7 @@ const products = [
         price: 2000,
         stock: 100,
         categories: 'Avicola',
-        picture: 'https://drive.google.com/uc?export=view&id=1T-BXOOMk4-5HepdlNTLxu_At2LWJLIRs'
+        picture: `${HCG}`
     },
     {
         id: 19,
@@ -171,7 +181,7 @@ const products = [
         price: 2000,
         stock: 100,
         categories: 'Avicola',
-        picture: 'https://drive.google.com/uc?export=view&id=1T-BXOOMk4-5HepdlNTLxu_At2LWJLIRs'
+        picture: `${HGB}`
     },
     {
         id: 20,
@@ -180,7 +190,7 @@ const products = [
         price: 2000,
         stock: 100,
         categories: 'Secos',
-        picture: 'https://drive.google.com/uc?export=view&id=1T-BXOOMk4-5HepdlNTLxu_At2LWJLIRs'
+        picture: `${PU1kg}`
     },
     {
         id: 21,
@@ -189,7 +199,7 @@ const products = [
         price: 2000,
         stock: 100,
         categories: 'Enlatados',
-        picture: 'https://drive.google.com/uc?export=view&id=1T-BXOOMk4-5HepdlNTLxu_At2LWJLIRs'
+        picture: `${MO800g}`
     },
     {
         id: 22,
@@ -198,7 +208,7 @@ const products = [
         price: 2000,
         stock: 100,
         categories: 'Liquido',
-        picture: 'https://drive.google.com/uc?export=view&id=1T-BXOOMk4-5HepdlNTLxu_At2LWJLIRs'
+        picture: `${VI5L}`
     },
     {
         id: 23,
@@ -207,7 +217,7 @@ const products = [
         price: 2000,
         stock: 100,
         categories: 'Condimentos',
-        picture: 'https://drive.google.com/uc?export=view&id=1T-BXOOMk4-5HepdlNTLxu_At2LWJLIRs'
+        picture: `${PI}`
     },
     {
         id: 24,
@@ -216,7 +226,7 @@ const products = [
         price: 2000,
         stock: 100,
         categories: 'Condimentos',
-        picture: 'https://drive.google.com/uc?export=view&id=1T-BXOOMk4-5HepdlNTLxu_At2LWJLIRs'
+        picture: `${COM}`
     },
     {
         id: 25,
@@ -225,7 +235,7 @@ const products = [
         price: 2000,
         stock: 100,
         categories: 'Condimentos',
-        picture: 'https://drive.google.com/uc?export=view&id=1T-BXOOMk4-5HepdlNTLxu_At2LWJLIRs'
+        picture: `${OR}`
     }
 ]
 

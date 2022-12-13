@@ -24,7 +24,7 @@ export default function Navbar() {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <Link to={'/category/Liquido'}>
               <li className="nav-link">
-                Liquido         
+              Liquido         
               </li>
               </Link>
               <Link to={'/category/Aceitunas'}>
@@ -37,9 +37,9 @@ export default function Navbar() {
               Avicola         
               </li>
               </Link>
-              <Link to={'/category/Seco'}>
+              <Link to={'/category/Secos'}>
               <li className="nav-link">
-              Seco         
+              Secos      
               </li>
               </Link>
               <Link to={'/category/Enlatados'}>
