@@ -7,8 +7,8 @@ import Card from 'react-bootstrap/Card';
 
 function Item({id,title,price,picture}) {
   return (
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={picture}/>
+    <Card style={{ width: '15rem' }} className='justify-content-lg-between'>
+      <Card.Img variant="top"  src={picture} style={{ objectFit:'scale-down', width:'100%', height:'100%' }}/>
       <Card.Body>
         <Card.Title>{title}</Card.Title>
         {/* <Card.Text>
