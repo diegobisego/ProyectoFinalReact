@@ -1,5 +1,5 @@
 import AceiteGirasol from '../assets/img/aceiteGirasol.jpg'
-import AceiteOliva from '../assets/img/aceiteOliva.jpg'
+import aceiteOliva from '../assets/img/aceiteOliva.jpg'
 import AceiteOliva5L from '../assets/img/AceiteOliva5L.jpg'
 import ACV1kg from '../assets/img/ACV1kg.jpg'
 import ACV2kg from '../assets/img/ACV2kg.jpg'
@@ -37,7 +37,7 @@ const products = [
         price: 2000,
         stock: 100,
         categories: 'Liquido',
-        picture: `${AceiteOliva}`
+        picture: `${aceiteOliva}`
     },
     {
         id: 3,
